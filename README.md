@@ -11,7 +11,6 @@
 ![Responsive Mockup](/media/responsive-mockup.png)
 
 ## Features
-
 ### Existing Features
 ### Future Features
 
