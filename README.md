@@ -14,6 +14,14 @@
 
 ### Existing Features
 ### Future Features
+- Allow users to review their answers after the quiz.
+- A leaderboard to show top scores.
+- Allow users to save their progress and resume later.
+- Allow users to share their results and provide feedback.
+- Reward users with bonus points for streaks or quick answers.
+- Add sound effects or background music.
+- Add badges or achievements.
+- Add new timer modes for variety (e.g. Sudden Death: One incorrect answer ends the quiz.).
 
 ## Project Planning - UX/UI
 ### User Stories
