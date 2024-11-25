@@ -1,7 +1,7 @@
 # Quiz
 ![Homepage banner](/media/banner.png)
 <p align="center">
-    <a href="" target="_blank">Deployed Project Link</a>
+    <a href="https://sarah2123.github.io/Quiz/" target="_blank">Deployed Project Link</a>
 </p>
 
 ## Project Overview
@@ -39,7 +39,7 @@
   - From the branch section, use the dropdown menu to select the 'main' branch.
   - From the next drop-down menu select 'root', then  click save.
   - Wait a few minutes and refresh your page and the deployed link should be available.
-- The live link can be found here - 
+- The live link can be found here - https://sarah2123.github.io/Quiz/
 
 ## Testing
 ### HTML
