@@ -127,14 +127,81 @@ This platform aims to provide an enjoyable way to test and expand knowledge whil
 - Progress tracking to motivate continued participation.
 - Accessibility for users with disabilities.
 ### Scope
-### Structure
-### Skeleton
-### Surface
+**Features:**
+- Ability for users to select the number of questions, category, difficulty level, and timer length.
+- Each question includes four clickable answer options.
+- Visual display showing the user’s progress (e.g., “Question 3 of 10”).
+- A visible countdown timer for each question.
+- Highlighting the selected answer in green for correct and red for incorrect, with the correct answer shown if the user gets it wrong.
+- Calculation and display of the user’s final score at the end of the quiz.
+- Ensures the quiz works on mobile, tablet, and desktop, with accessibility features for users with disabilities.
 
-## Design
-### Typography
-### Colour Scheme
-### Images
+**Functions:**
+- Ensures users select all quiz parameters before starting the quiz.
+- Fetches questions, answers, and other data dynamically from the API based on user-selected parameters.
+- Determines if a user’s selected answer is correct and adjusts the score accordingly.
+- Provides immediate feedback by highlighting the correct/incorrect answers and locking further interaction after an answer is chosen.
+- Starts and stops a countdown timer for each question, resetting it for the next question.
+- Updates the progress tracker after each question is completed.
+- Tallies the user’s correct answers and calculates the final score at the end of the quiz.
+- Resets parameters and questions when the user opts to play again.
+
+**Content:**
+- The content for the quiz will come from an API: <a href="https://opentdb.com/api_config.php" target="_blank">Open Trivia Database</a>
+- The API will need to handle, display  and interact with the following:
+  - Text-based questions and four possible answer options for each.
+  - Correct answer identifier.
+  - List of quiz categories (e.g., general knowledge, animals, geography, music).
+
+### Structure
+**Interaction Design:**
+- User starts at the "Start Screen".
+  - They can select the how to play button and a modal with instructions pops up.
+  - They can close the modal by clicking the close button or anywhere outside of the modal.
+  - The start button takes them to the Quiz Parameters Screen.
+- They then proceed to "Quiz Parameters Screen".
+  - The can click the dropdown menus to choose the number of questions, difficulty level, category, and timer on the quiz.
+  - The start button is available once all parameters are selected and leads them to the Quiz Question Screen.
+- Once at the "Quiz Question Screen" they remain here until all questions have been answered.
+  - The user can select the correct answer from 4 options.
+  - Once an answer has been selected it turns green if correct or red if incorrect.
+  - The next button is available once an answer is selected, it leads to the next question, if the quiz is finished it leads to the Results Screen.
+- Finally they arrive at the "Results Screen" and decide to play again or exit.
+  - The play again button takes them straight to the Quiz Parameters Screen.
+
+**Information Achitecture:**
+- Start Screen
+  - Centralized layout with a title, tagline, and buttons for “Start” and “How to Play.”
+  - Modal popup for instructions when “How to Play” is clicked.
+- Quiz Parameters Screen
+  - Form layout with dropdowns for all quiz parameters.
+  - Disabled “Start Quiz” button until all parameters are filled.
+- Quiz Question Screen
+  - Header: Progress tracker and timer.
+  - Main Area: Question text and answer options.
+  - Footer: “Next” button.
+- Results Screen:
+  - Score display at the center.
+  - “Play Again” button below the score.
+### Skeleton
+**Desktop Wireframes**
+![Desktop Wireframe](/assets/media/desktop.png)
+
+**Tablet Wireframes**
+![Tablet Wireframe](/assets/media/tablet.png)
+
+**Mobile Wireframes**
+![Mobile Wireframe](/assets/media/mobile.png)
+
+
+### Surface
+**Visual Design**
+
+**Typography**
+
+**Colour Scheme**
+
+**Imagery**
 
 ## Technologies Used
 
@@ -163,3 +230,5 @@ This platform aims to provide an enjoyable way to test and expand knowledge whil
 ### Content
 ### Media
 ### Acknowledgements
+
+## AI Usage
